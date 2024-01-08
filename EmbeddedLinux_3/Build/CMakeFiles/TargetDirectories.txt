@@ -1,0 +1,6 @@
+/home/yasmine/ITI/Embedded_Linux/EmbeddedLinux_3/Build/CMakeFiles/Calculator.dir
+/home/yasmine/ITI/Embedded_Linux/EmbeddedLinux_3/Build/CMakeFiles/edit_cache.dir
+/home/yasmine/ITI/Embedded_Linux/EmbeddedLinux_3/Build/CMakeFiles/rebuild_cache.dir
+/home/yasmine/ITI/Embedded_Linux/EmbeddedLinux_3/Build/Library/CMakeFiles/operation.dir
+/home/yasmine/ITI/Embedded_Linux/EmbeddedLinux_3/Build/Library/CMakeFiles/edit_cache.dir
+/home/yasmine/ITI/Embedded_Linux/EmbeddedLinux_3/Build/Library/CMakeFiles/rebuild_cache.dir
