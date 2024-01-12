@@ -4,7 +4,7 @@
 
 1. ##### Create a 1 GB file filled with zeroes
 
-   `dd if=/dev/zero of=sd.img bs=1M count=1000`
+   `dd if=/dev/zero of=sd.img bs=1M count=1024`
 
 2. ##### Configure the Partition Table
 
