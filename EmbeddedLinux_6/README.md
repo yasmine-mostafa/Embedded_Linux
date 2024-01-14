@@ -30,6 +30,8 @@
 
 7. Create a script to set a tftp connection between qemu and the host machine
 
+   ![image](https://github.com/yasmine-mostafa/Embedded_Linux/assets/63374980/60c4f5b1-2859-40c5-baad-df6e95a61cf2)
+
 8. Run qemu
 
    `sudo qemu-system-arm -M vexpress-a9 -m 128M -nographic -kernel Bootloader/u-boot/u-boot -sd SD_Card/sd.img -net tap,script=./Bootloader/qemu-ifup -net nic`
@@ -44,10 +46,16 @@
 
    `setenv Load_from_TFTP 'tftp ${kernel_address} Zimage; tftp ${fdt_address} hardware.dtb' ` 
 
-10. To make i automated, set the bootcmd to first check if the files are in the FAT partition, if not then check if it can be loaded over tftp.
+10. To make it automated, set the bootcmd to first check if the files are in the FAT partition, if not then check if it can be loaded over tftp.
 
     `setenv bootcmd 'echo "helpppp"; if run Load_from_FAT; then echo "Loaded from FAT";elif run Load_from_TFTP; then echo "Loaded from TFTP";fi;'`
 
+    ![image](https://github.com/yasmine-mostafa/Embedded_Linux/assets/63374980/c8447104-7027-4556-bc99-40c8b3db8851)
     
+ 11. Check the files' memory locations
+     
+     ![image](https://github.com/yasmine-mostafa/Embedded_Linux/assets/63374980/6978f2df-268f-4560-ac31-d4f3cc42b852)
+
+
 
     
